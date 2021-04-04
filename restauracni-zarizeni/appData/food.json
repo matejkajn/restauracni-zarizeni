@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Kuřecí řízek",
+    "price": 105
+  },
+  {
+    "name": "Smažený sýr",
+    "price": 95
+  },
+  {
+    "name": "Hovězý vývar",
+    "price": 65
+  },
+  {
+    "name": "Pečený losos",
+    "price": 150
+  },
+  {
+    "name": "Svíčková na smetaně",
+    "price": 130
+  },
+  {
+    "name": "Kuřecí kung pao",
+    "price": 100
+  },
+  {
+    "name": "Candát na másle",
+    "price": 125
+  },
+  {
+    "name": "Knedlo zelo vepřo",
+    "price": 135
+  },
+  {
+    "name": "Cheeseburger",
+    "price": 70
+  },
+  {
+    "name": "Hovězý steak",
+    "price": 210
+  },
+  {
+    "name": "Pizza Salami",
+    "price": 165
+  },
+  {
+    "name": "Pizza Quattro Formaggi",
+    "price": 165
+  },
+  {
+    "name": "Beef Wellington",
+    "price": 350
+  },
+  {
+    "name": "Hranolky",
+    "price": 35
+  },
+  {
+    "name": "Vařené brambory",
+    "price": 30
+  },
+  {
+    "name": "Grilovaná zelenina",
+    "price": 45
+  },
+  {
+    "name": "Americké brambory",
+    "price": 55
+  },
+  {
+    "name": "Smažené rýžové nudle",
+    "price": 110
+  },
+  {
+    "name": "Pečené brambory",
+    "price": 60
+  },
+  {
+    "name": "Lasagne",
+    "price": 140
+  },
+  {
+    "name": "Špagety Carbonara",
+    "price": 185
+  },
+  {
+    "name": "Kuřecí nugetky",
+    "price": 120
+  },
+  {
+    "name": "Vepřový řízek",
+    "price": 150
+  },
+  {
+    "name": "Losos se smaragdovou omáčkou",
+    "price": 180
+  },
+  {
+    "name": "Guláš",
+    "price": 150
+  }
+]

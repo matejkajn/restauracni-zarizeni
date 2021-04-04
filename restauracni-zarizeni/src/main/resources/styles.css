@@ -1,0 +1,153 @@
+/*Přihlašovací obrazovky*/
+#pane_login {
+    -fx-pref-height: 100;
+    -fx-pref-width: 400;
+    -fx-alignment: center;
+}
+
+#headLabel {
+    -fx-font-family: "Segoe UI";
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-font-size: 16;
+}
+
+#buttonBox {
+    -fx-pref-Height: 50;
+    -fx-spacing: 150;
+    -fx-alignment: center;
+}
+
+.loginHbox {
+    -fx-alignment: center;
+}
+
+.lblText {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13;
+    -fx-pref-width: 115;
+}
+
+.txtFields {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 13;
+    -fx-pref-width: 210;
+}
+
+.loginBtns {
+    -fx-font-family: "Segoe UI";
+    -fx-pref-width: 90;
+    -fx-font-size: 13;
+
+}
+/**/
+#pane_main {
+    -fx-pref-height: 200;
+    -fx-pref-width: 500;
+    -fx-alignment: center;
+}
+#middleBox {
+    -fx-spacing: 40;
+    -fx-padding: 25px;
+}
+.middleBoxItems {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+    -fx-spacing: 25;
+}
+#middleBoxButtons {
+    -fx-spacing: 15;
+}
+#pane_history {
+    -fx-pref-height: 800;
+    -fx-pref-width: 800;
+    -fx-alignment: center;
+}
+#history_text {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 26;
+    -fx-padding: 15 0 0 0;
+}
+#historyOutput {
+    -fx-padding: 0 50 0 50;
+    -fx-spacing: 25;
+    -fx-alignment: center;
+}
+#order_info {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+    -fx-pref-height: 600;
+}
+#btn_closeHistory {
+    -fx-pref-width: 200;
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+}
+#pane_order {
+    -fx-pref-height: 800;
+    -fx-pref-width: 800;
+    -fx-alignment: center;
+}
+#order_text {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 26;
+    -fx-padding: 15 0 0 0;
+}
+#leftBox {
+    -fx-padding: 25 10 25 25;
+}
+#leftBoxItems {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+    -fx-spacing: 25;
+    -fx-padding: 25 0 25 0;
+}
+.orderText {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 20;
+    -fx-padding: 0 0 10 0;
+}
+#orderBox {
+    -fx-alignment: center;
+}
+.note_info {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+    -fx-pref-width: 365;
+}
+#btn_addNote {
+    -fx-pref-width: 150;
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+}
+#note_text {
+    -fx-spacing: 25;
+    -fx-alignment: center;
+}
+#bottomBox {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+    -fx-padding: 50 0 50 0;
+}
+#rightBox {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 18;
+    -fx-alignment: top-center;
+    -fx-padding: 25 25 25 10;
+}
+#addFoodLabel {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 28;
+}
+#addDrinkLabel {
+    -fx-font-family: Segoe UI;
+    -fx-font-size: 28;
+}
+
+
+

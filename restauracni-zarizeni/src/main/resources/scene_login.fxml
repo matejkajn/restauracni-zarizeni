@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="pane_login" stylesheets="styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.vse.restaurace.Controllers.LoginController">
+    <bottom>
+        <HBox fx:id="buttonBox" BorderPane.alignment="CENTER">
+                <Button mnemonicParsing="false" styleClass="loginBtns" fx:id="btnOpenRegistration" text="Registrace" />
+                <Button mnemonicParsing="false" styleClass="loginBtns" fx:id="btnLogin" text="Přihlásit" />
+            </HBox>
+    </bottom>
+    <center>
+        <VBox prefHeight="70.0" prefWidth="200.0" style="-fx-spacing: 10" BorderPane.alignment="CENTER">
+                <HBox styleClass="loginHbox">
+                    <Label styleClass="lblText">Přihlašovací jméno:</Label>
+                    <TextField styleClass="txtFields" fx:id="textUserName" />
+                </HBox>
+                <HBox styleClass="loginHbox">
+                    <Label styleClass="lblText">Přihlašovací heslo:</Label>
+                    <PasswordField styleClass="txtFields" fx:id="textPassword" />
+                </HBox>
+        </VBox>
+    </center>
+    <top>
+        <Label fx:id="headLabel" text="Přihlášení" BorderPane.alignment="CENTER" />
+    </top>
+</BorderPane>

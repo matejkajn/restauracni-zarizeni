@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Kofola",
+    "price": 25
+  },
+  {
+    "name": "Fanta",
+    "price": 35
+  },
+  {
+    "name": "Sprite",
+    "price": 30
+  },
+  {
+    "name": "Coca Cola",
+    "price": 40
+  },
+  {
+    "name": "Pepsi Cola",
+    "price": 35
+  },
+  {
+    "name": "Espresso",
+    "price": 50
+  },
+  {
+    "name": "Cappuccino",
+    "price": 55
+  },
+  {
+    "name": "Frappé",
+    "price": 65
+  },
+  {
+    "name": "Kozel 11°",
+    "price": 25
+  },
+  {
+    "name": "Staropramen 10°",
+    "price": 35
+  },
+  {
+    "name": "Krakonoš 12°",
+    "price": 40
+  },
+  {
+    "name": "Plzeň 12°",
+    "price": 50
+  },
+  {
+    "name": "Starobrno 11°",
+    "price": 20
+  },
+  {
+    "name": "Birell",
+    "price": 35
+  },
+  {
+    "name": "Perlivá voda",
+    "price": 30
+  },
+  {
+    "name": "Jemně perlivá voda",
+    "price": 25
+  },
+  {
+    "name": "Beefeater gin",
+    "price": 75
+  },
+  {
+    "name": "Finlandia",
+    "price": 65
+  },
+  {
+    "name": "Bohemia Sekt",
+    "price": 270
+  },
+  {
+    "name": "Svatovavřinské víno",
+    "price": 200
+  },
+  {
+    "name": "Rulandské růžové",
+    "price": 225
+  },
+  {
+    "name": "Malinovka 0,5l",
+    "price": 35
+  },
+  {
+    "name": "Domácí citronáda",
+    "price": 45
+  }
+]

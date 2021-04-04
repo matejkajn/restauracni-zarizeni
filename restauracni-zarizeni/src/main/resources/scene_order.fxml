@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="pane_order" stylesheets="styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.vse.restaurace.Controllers.OrderController">
+    <top>
+        <Label fx:id="order_text" text="Úprava objednávky č. #" BorderPane.alignment="CENTER" />
+    </top>
+    <left>
+        <VBox fx:id="leftBox">
+            <VBox fx:id="leftBoxItems">
+                <ComboBox fx:id="food_box" prefWidth="275" promptText="Jídlo" />
+                <Button fx:id="btn_addFood" prefWidth="150">
+                    <text>
+                        Přidat
+                    </text>
+                </Button>
+                <ComboBox fx:id="drinks_box" prefWidth="275" promptText="Nápoje" />
+                <Button fx:id="btn_addDrink" prefWidth="150">
+                    <text>
+                        Přidat
+                    </text>
+                </Button>
+            </VBox>
+            <VBox fx:id="orderBox">
+                <Label styleClass="orderText">
+                    <text>
+                        Poznámka
+                    </text>
+                </Label>
+                <VBox fx:id="note_text">
+                    <TextArea fx:id="note_field" editable="true" styleClass="note_info" />
+                    <Button fx:id="btn_addNote">
+                        <text>
+                            Přidat
+                        </text>
+                    </Button>
+                </VBox>
+            </VBox>
+        </VBox>
+    </left>
+    <right>
+        <VBox fx:id="rightBox">
+            <Label styleClass="orderText">
+                <text>
+                    Informace o objednávce
+                </text>
+            </Label>
+            <TextArea fx:id="order_info" editable="false" prefHeight="520" maxHeight="520" styleClass="note_info" />
+        </VBox>
+    </right>
+    <bottom>
+        <VBox fx:id="bottomBox">
+            <Button fx:id="btn_confirmOrder">
+                <text>
+                    Potvrdit úpravu objednávky
+                </text>
+            </Button>
+        </VBox>
+    </bottom>
+</BorderPane>
